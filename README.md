@@ -157,5 +157,5 @@ bfs_dfs_navigation/
 ---
 
 <p align="center">
-  🚀 <b>🚀 Project Completed Successfully 🚀</b>
+   <b>🚀 Project Completed Successfully 🚀</b>
 </p>
