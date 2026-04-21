@@ -1,4 +1,4 @@
-# 🚦 Smart Navigation System using BFS & DFS
+# 🚦 Smart Navigation System (BFS & DFS)
 
 <p align="center">
   <b>Artificial Intelligence | Graph Traversal | Pathfinding System</b>
@@ -6,49 +6,43 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Algorithm-BFS%20%7C%20DFS-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Project-AI%20Assignment-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/AI-BFS%20%7C%20DFS-purple?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-Level%20Topper-orange?style=for-the-badge">
 </p>
 
 ---
 
-## 📌 Project Overview
-This project demonstrates a **Smart Navigation System** built using fundamental Artificial Intelligence search algorithms.
+## 📌 <span style="color:#4CAF50">Project Overview</span>
+This project implements a **Smart Navigation System** using core Artificial Intelligence algorithms — **Breadth-First Search (BFS)** and **Depth-First Search (DFS)**.
 
-It simulates how systems like **Google Maps and GPS navigation** determine paths between locations using graph traversal techniques.
+It simulates how real-world systems like **GPS navigation** find routes between locations.
 
 ---
 
-## 🎯 Objectives
-- Implement core AI search algorithms  
-- Understand graph traversal techniques  
-- Compare BFS and DFS performance  
+## 🎯 <span style="color:#2196F3">Objectives</span>
+- Implement AI search algorithms  
+- Understand graph traversal  
+- Compare BFS and DFS  
 - Demonstrate pathfinding logic  
 
 ---
 
-## 🧠 Algorithms Used
+## 🧠 <span style="color:#9C27B0">Algorithms Used</span>
 
-### 🔹 Breadth-First Search (BFS)
-- Explores nodes **level-by-level**
-- Uses **Queue (FIFO)**
-- Guarantees **shortest path**
-- Suitable for optimal solutions  
+### 🔹 BFS (Breadth-First Search)
+- Level-by-level traversal  
+- Uses Queue  
+- Guarantees shortest path  
 
----
-
-### 🔹 Depth-First Search (DFS)
-- Explores nodes **deep-first**
-- Uses **Recursion / Stack**
-- Faster in some cases  
-- Does **not guarantee shortest path**
+### 🔹 DFS (Depth-First Search)
+- Deep traversal  
+- Uses Stack / Recursion  
+- Faster but not optimal  
 
 ---
 
-## 🗺️ Graph Representation
-
-The system uses a predefined graph:
+## 🗺️ <span style="color:#FF9800">Graph Representation</span>
 
 
 A → B, C
@@ -56,29 +50,28 @@ B → D, E
 C → D
 D → F
 E → F
-F → -
 
 
 ---
 
-## ⚙️ Working Principle
-1. User enters start node and goal node  
-2. BFS explores all nearby nodes first  
-3. DFS explores deeper paths first  
-4. Both algorithms attempt to reach the goal  
-5. Paths are displayed and compared  
+## ⚙️ <span style="color:#00BCD4">Working Principle</span>
+1. User enters start node  
+2. User enters goal node  
+3. BFS explores neighbors first  
+4. DFS explores deeper nodes  
+5. Paths are displayed  
 
 ---
 
-## 🧪 Sample Execution
+## 🧪 <span style="color:#E91E63">Sample Execution</span>
 
-### 🔸 Input
+**Input**
 
-Enter start node: A
-Enter goal node: F
+A
+F
 
 
-### 🔸 Output
+**Output**
 
 BFS Path: A → B → D → F
 DFS Path: A → C → D → F
@@ -86,78 +79,83 @@ DFS Path: A → C → D → F
 
 ---
 
-## 📊 Algorithm Comparison
+## 📊 <span style="color:#3F51B5">Comparison</span>
 
-| Feature        | BFS                        | DFS                        |
-|----------------|----------------------------|-----------------------------|
-| Strategy       | Level-wise                 | Depth-wise                  |
-| Data Structure | Queue                      | Stack / Recursion           |
-| Optimal Path   | ✅ Yes                     | ❌ Not guaranteed           |
-| Speed          | Slower                     | Faster                      |
-| Nodes Explored | More                       | Less                        |
-| Memory Usage   | High                       | Low                         |
+| Feature        | BFS ✅            | DFS ⚡           |
+|----------------|------------------|-----------------|
+| Path           | Shortest         | Not guaranteed  |
+| Speed          | Slower           | Faster          |
+| Structure      | Queue            | Stack           |
 
 ---
 
-## ⏱️ Complexity Analysis
+## ⏱️ <span style="color:#795548">Complexity</span>
 
-### BFS
-- Time Complexity: **O(V + E)**  
-- Space Complexity: **O(V)**  
-
-### DFS
-- Time Complexity: **O(V + E)**  
-- Space Complexity: **O(V)**  
+- BFS → O(V + E)  
+- DFS → O(V + E)  
 
 ---
 
-## 🚀 How to Run
+## 🚀 <span style="color:#009688">How to Run</span>
 
-### ▶️ Step 1: Clone Repository
-```bash
-git clone <your-repo-link>
-▶️ Step 2: Navigate to Folder
-cd bfs_dfs_navigation
-▶️ Step 3: Run Program
+1. Clone repository  
+2. Open folder  
+3. Run program  
+4. Enter input  
+
+Command:
+
 python main.py
-▶️ Step 4: Provide Input
-Enter start node
-Enter goal node
-📁 Project Structure
+
+
+---
+
+## 📁 <span style="color:#607D8B">Project Structure</span>
+
+
 bfs_dfs_navigation/
-│
 ├── main.py
 └── README.md
-💡 Key Features
-Clean and structured implementation
-Interactive user input
-Demonstrates core AI search algorithms
-Easy comparison between BFS and DFS
-Beginner-friendly and efficient
-🌍 Real-World Applications
-🗺️ GPS Navigation Systems
-🌐 Network Routing
-🎮 Game Pathfinding
-🤖 Robotics Navigation
-🛠️ Technologies Used
-🐍 Python
-📊 Graph Data Structures
-🔍 BFS & DFS Algorithms
-📌 Assignment Requirements Covered
 
-✔ AI problem implemented
-✔ GitHub repository created
-✔ Proper folder structure
-✔ Multiple commits
-✔ README with explanation and outputs
-✔ Working program with user input
 
-👨‍💻 Author
+---
 
-Muralidhar
+## 💡 <span style="color:#8BC34A">Key Features</span>
+- Clean implementation  
+- User input system  
+- BFS vs DFS comparison  
+- Easy to understand  
 
-⭐ Conclusion
+---
 
-This project successfully demonstrates how Artificial Intelligence search algorithms can be used to solve real-world navigation problems. It highlights the trade-offs between optimality and efficiency, forming a strong foundation in AI problem-solving techniques.
+## 🌍 <span style="color:#FF5722">Applications</span>
+- GPS Navigation  
+- Network Routing  
+- Game AI  
+- Robotics  
 
-<p align="center"> 🚀 <b>Project Completed Successfully</b> 🚀 </p> ```
+---
+
+## 🛠️ <span style="color:#673AB7">Technologies</span>
+- Python  
+- Graph Algorithms  
+
+---
+
+## 📌 <span style="color:#F44336">Assignment Coverage</span>
+✔ AI problem implemented  
+✔ GitHub repository maintained  
+✔ Proper structure  
+✔ README with outputs  
+✔ Working code  
+
+---
+
+## 👨‍💻 Author
+**Muralidhar**
+
+---
+
+<p align="center">
+  🚀 <b>TOPPER LEVEL PROJECT 🚀</b>
+</p>
