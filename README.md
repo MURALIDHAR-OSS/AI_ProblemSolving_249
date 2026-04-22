@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/AI-BFS%20%7C%20DFS-purple?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Project-Level%20Topper-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-Level%20HIGh-orange?style=for-the-badge">
 </p>
 
 ---
